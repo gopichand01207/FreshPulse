@@ -1,0 +1,29 @@
+{
+  "data": {
+    "source": "synthetic",
+    "dataset_path": "data/generated/synthetic_observations.csv",
+    "observations": 55296,
+    "stores": 6,
+    "skus": 12,
+    "interval_minutes": 15
+  },
+  "forecast": {
+    "observations": 55296.0,
+    "train_rows": 34560.0,
+    "test_rows": 13824.0,
+    "xgboost_wape": 0.796064436726938,
+    "moving_average_wape": 1.0316228680184467,
+    "elasticity": -0.44386766563989855,
+    "train_start": "2026-01-06 00:00:00",
+    "train_end": "2026-01-10 23:45:00",
+    "test_start": "2026-01-11 00:00:00",
+    "test_end": "2026-01-12 23:45:00"
+  },
+  "leakage": {
+    "sample_days": 8.0,
+    "stockout_cost": 373731.46,
+    "spoilage_cost": 28178.84,
+    "combined_leakage": 401910.30000000005,
+    "annualized_leakage": 18337157.437500004
+  }
+}
